@@ -4,27 +4,27 @@
 
 Les designs ont été créés dans les largeurs (widths) suivantes:
 
-- Mobile: 375px
+- Mobile: 415px
 - Tablette: 768px
-- Desktop: 1440px
+- Desktop: 3693px
 
 ## Colors
 
 ### Primary
-
-- Définir tes couleurs ici en hsl ou bien en hexa avec le nom de chaque couleur
+   color :#000000,#FFFFFF,#707070 ;
 
 ## Typography
-
+ headings : 32px 50px 26px;
+ 
 ### Headings
 
-- Family: Mettez le lien du font utilisée avec son nom
-- Weights: mettez les weights utilisées
+- Family: "https://fonts.gstatic.com", work sans;
+- Weights: Regular 400 ;
 
 ### Body
 
-- Family: Mettez le lien du font utilisée avec son nom
-- Weights: mettez les weights utilisées
+- Family:"https://fonts.gstatic.com", work sans;
+- Weights: Regular 400 ;
 
 ## Icons
 
