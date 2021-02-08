@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact page</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="styles/stylesContact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact page</title>
 </head>
+
 <body>
-    
+  <!-- debut de navbar -->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"><a href="index.html" type="button" class="btn">Portfol<span>io</span></a></label>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a  href="projects.html">Projects</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- fin de navbar -->
+
+
+
+  <!-- debut de contenu contact -->
+  <section class="contact">
+    <div class="content">
+        <h2>CONTACT</h2>
+    </div>
+    <div class="container">
+        <div class="contactInfo">
+           <div class="box">
+               <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+               <div class="text">
+                   <h3>Address</h3>
+                   <p>Morocco Oujda City , Lazaret C 1 street</p>
+               </div>
+           </div>
+           <div class="box">
+               <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+               <div class="text">
+                   <h3>Phone</h3>
+                   <p>0695316299</p>
+               </div>
+           </div>
+           <div class="box">
+               <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+               <div class="text">
+                   <h3>Email</h3>
+                   <p>mohammedaminechaabane9@gmail.com</p>
+               </div>
+           </div>
+       </div>   
+           <div class="contactForm">
+               <form>
+                   <h2>Send Message</h2>
+                   <div class="inputBox ">
+                    <span>Name</span>   
+                   <input type="text" name="" required="required">
+                  
+                   </div>
+                   <div class="inputBox">
+                    <span>Email</span>  
+                   <input type="text" name="" required="required">
+                    
+                   </div>
+                   <div class="inputBox">
+                    <span>Message..</span>   
+                   <textarea required="required"></textarea>
+                   
+                   </div>
+                   <div class="inputBox">
+                   <input type="submit" name="" value="Send">
+                   </div>
+               </form>
+           </div> 
+    </div>
+    </section>
+<!-- fin du contenu cantact -->
+
+<br clear="all">
+
+<!-- debut footer -->
+  <footer class="footer-distributed">
+    <div class="footer-left">
+<p class="footer-company-name"> Made by Mohammed Amine CHAABANE &#169;</p>
+    </div>
+    <div class="footer-right">
+      <div class="footer-icons">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://github.com/Chaabanemohammedamine"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohammed-amine-chaabane-7b2054203/"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+<!-- fin footer -->
 </body>
+
+
+
 </html>
